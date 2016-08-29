@@ -117,7 +117,7 @@ Compression is generally not very fast, since the algorithms are designed to be 
 The PIC32 sample code, running on a PIC32MX150F128B at 40MHZ, compiled with x32-gcc v1.31, -O3 optimized code, obtains the following decompression rates
 
   | Codec                  | Rate KB/s | Ratio |
-  |------------------------|-----------|-------|
+  | ---------------------- | --------- | ----- |
   | Huffman                |   74      |  67%  |
   | Arithmetic             |    3      |  66%  |
   | LZ77                   |  327      |  53%  |
