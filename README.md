@@ -116,16 +116,16 @@ Compression is generally not very fast, since the algorithms are designed to be 
 
 The PIC32 sample code, running on a PIC32MX150F128B at 40MHZ, compiled with x32-gcc v1.31, -O3 optimized code, obtains the following decompression rates
 
-  | Codec                  | Rate KB/s | Ratio |
-  | ---------------------- | --------- | ----- |
-  | Huffman                |   74      |  67%  |
-  | Arithmetic             |    3      |  66%  |
-  | LZ77                   |  327      |  53%  |
-  | LZCL                   |   16      |  42%  |
-  | Incremental Huffman    |   74      |  67%  |
-  | Incremental Arithmetic |    3      |  66%  |
-  | Incremental LZ77       |  285      |  53%  |
-  | Incremental LZCL       |   16      |  42%  |
+| Codec                  | Rate KB/s | Ratio |
+| ---------------------- | --------- | ----- |
+| Huffman                |   74      |  67%  |
+| Arithmetic             |    3      |  66%  |
+| LZ77                   |  327      |  53%  |
+| LZCL                   |   16      |  42%  |
+| Incremental Huffman    |   74      |  67%  |
+| Incremental Arithmetic |    3      |  66%  |
+| Incremental LZ77       |  285      |  53%  |
+| Incremental LZCL       |   16      |  42%  |
 
 This was tested on a compressed version of the 26217 byte file `Decompressor.c`, with both LZ variants set to allow decoding incrementally into a 257 byte buffer.
 
