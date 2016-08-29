@@ -132,7 +132,7 @@ This was tested on a compressed version of the 26217 byte file `Decompressor.c`,
 A common test for smaller files is the Calgary Corpus and Cantebury Corpus
 
 |               Filename | File size | Arithmetic ratio | Arithmetic size | Huffman ratio | Huffman size | Lz77 ratio | Lz77 size | LZCL ratio |   LZCL size |
-|------------------------|-----------|------------------|-----------------|---------------|--------------|------------|-----------|------------|-------------|
+|------------------------|----------:|------------------|----------------:|---------------|-------------:|------------|----------:|------------|------------:|
 |            Calgary\bib |    111261 |            0.651 |           72483 |         0.655 |        72845 |      0.574 |     63813 |  **0.435** |   **48387** |
 |          Calgary\book1 |    768771 |            0.566 |          435264 |         0.570 |       438461 |      0.661 |    508162 |  **0.486** |  **373303** |
 |          Calgary\book2 |    610856 |            0.599 |          366165 |         0.603 |       368398 |      0.576 |    351818 |  **0.420** |  **256308** |
