@@ -27,7 +27,9 @@ bld/
 [Ll]og/
 
 # Output
-Staging/
+Staging/*
+!Staging/CompressionTester.exe 
+!Staging/ReferenceDecoder.dll
 
 # Visual Studio 2015 cache/options directory
 .vs/
