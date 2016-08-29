@@ -131,8 +131,8 @@ This was tested on a compressed version of the 26217 byte file `Decompressor.c`,
 
 A common test for smaller files is the Calgary Corpus and Cantebury Corpus
 
-|                         Filename | File size | Arithmetic ratio | Arithmetic size | Huffman ratio | Huffman size | Lz77 ratio | Lz77 size | LZCL ratio |   LZCL size |
- |----------------------------------|-----------|------------------|-----------------|---------------|--------------|------------|-----------|------------|-------------|
+|               Filename | File size | Arithmetic ratio | Arithmetic size | Huffman ratio | Huffman size | Lz77 ratio | Lz77 size | LZCL ratio |   LZCL size |
+|------------------------|-----------|------------------|-----------------|---------------|--------------|------------|-----------|------------|-------------|
 |            Calgary\bib |    111261 |            0.651 |           72483 |         0.655 |        72845 |      0.574 |     63813 |  **0.435** |   **48387** |
 |          Calgary\book1 |    768771 |            0.566 |          435264 |         0.570 |       438461 |      0.661 |    508162 |  **0.486** |  **373303** |
 |          Calgary\book2 |    610856 |            0.599 |          366165 |         0.603 |       368398 |      0.576 |    351818 |  **0.420** |  **256308** |
@@ -161,7 +161,7 @@ A common test for smaller files is the Calgary Corpus and Cantebury Corpus
 |         Cantebury\ptt5 |    513216 |            0.152 |           77890 |         0.208 |       106726 |      0.153 |     78292 |  **0.103** |   **52851** |
 |          Cantebury\sum |     38240 |            0.673 |           25733 |         0.678 |        25915 |      0.562 |     21497 |  **0.412** |   **15746** |
 |      Cantebury\xargs.1 |      4227 |            0.634 |            2679 |         0.633 |         2676 |      0.517 |      2184 |  **0.474** |    **2004** |
-|                          Summary |   5032533 |            0.518 |         2606862 |         0.533 |      2680152 |      0.510 |   2564968 |  **0.374** | **1879847** |
+|                Summary |   5032533 |            0.518 |         2606862 |         0.533 |      2680152 |      0.510 |   2564968 |  **0.374** | **1879847** |
 
 Finally, LZ77 and LZCL can vary drastically with different parameters - the above parameters are not tuned to be optimal, which can be done by exhaustively trying them.
 
